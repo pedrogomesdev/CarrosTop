@@ -4,10 +4,10 @@ function ProductCard() {
   return (
     <>
       <div className="card-container">
-        <div className="card-superior">
+        <div className="card-super">
           <img src={Secondcar} alt="Carro secundario" />
         </div>
-        <div className="card-inferior">
+        <div className="card-info">
           <h5>Audi Supra TT</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.

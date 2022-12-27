@@ -1,11 +1,9 @@
-import Navbar from "components/Navbar";
-import Secondcar from "assets/images/secondcar.png";
 import ProductCard from "components/ProductCard";
 import "./styles.css";
+
 function Catalog() {
   return (
     <>
-      <Navbar></Navbar>
       <div className="container catalog-container">
         <div className="buscar-container">
           <input type="text" placeholder="Digite sua busca" />

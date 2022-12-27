@@ -1,35 +1,35 @@
-.nav-principal{
-    min-height: 70px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color: #F78B00;
+.nav-principal {
+  min-height: 70px;
+  padding-top: 20px;
+  padding-left: 10px;
+  background-color: #f78b00;
 }
 
-.navbar-toggler{
-    border: 0;
+.navbar-toggler {
+  border: 0;
 }
 
 .menu-principal {
-    width: 250px;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
 }
 
-
-
-.menu-principal li{
-    font-size: 18px;
-    color: #00285F;
-  
+.menu-principal li {
+  font-size: 18px;
+  color: #00285f;
 }
 
-.nav-principal h4{
-    font-weight: bold;
-    font-size: 24px;
-    color: #00285F;
+.nav-principal h4 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #00285f;
 }
 
-.menu-principal li.active{
-    font-weight: bold;
+.remove-sublinhado {
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
 }

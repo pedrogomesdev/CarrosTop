@@ -1,13 +1,15 @@
 import "./styles.css";
 import "bootstrap/js/src/collapse.js";
-
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-md navbar-dark nav-principal fixed-top">
       <div className="container-fluid">
         <div>
-          <h4>Carros Top</h4>
+          <Link to="/" className="nav-logo remove-sublinhado ">
+            <h4>Carros Top</h4>
+          </Link>
         </div>
 
         <button
@@ -24,8 +26,13 @@ function Navbar() {
 
         <div className="collapse navbar-collapse" id="carrostop-navbar">
           <ul className="navbar-nav offset-md-9 menu-principal">
-            <li className="active">Home</li>
-            <li>Catálogo</li>
+            <NavLink to="/" activeClassName="active" className="remove-sublinhado" exact>
+              <li>Home</li>
+            </NavLink>
+
+            <NavLink to="/Catalog" activeClassName="active" className="remove-sublinhado ">
+              <li>Catálogo</li>
+            </NavLink>
           </ul>
         </div>
       </div>

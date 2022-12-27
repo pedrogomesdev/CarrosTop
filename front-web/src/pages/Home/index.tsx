@@ -1,11 +1,10 @@
-import Navbar from "components/Navbar";
 import "./styles.css";
 import Maincar from "assets/images/maincar.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
-      <Navbar></Navbar>
       <div className="home-container">
         <div className="card-superior">
           <img src={Maincar} alt="Carro principal" />
@@ -18,7 +17,10 @@ function Home() {
           </div>
         </div>
         <div className="card-inferior">
-          <button className="btn bg-primary my-btn">ver catálogo</button>
+          <Link to="/Catalog" className="link-listra">
+            <button className="btn bg-primary my-btn">ver catálogo</button>
+          </Link>
+
           <p>Começe agora a navegar</p>
         </div>
       </div>
