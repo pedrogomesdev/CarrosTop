@@ -1,0 +1,34 @@
+.card-container {
+  margin-top: 20px;
+  background: #ededed;
+  padding: 10px 20px;
+
+  border-radius: 10px;
+}
+
+.card-superior {
+  text-align: center;
+}
+
+.card-superior img {
+  width: 100%;
+}
+.card-inferior h5 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-inferior p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.card-inferior button {
+  margin-top: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  height: 40px;
+}
