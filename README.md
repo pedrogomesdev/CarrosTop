@@ -25,9 +25,9 @@ Neste projeto pude colocar em pratica o que aprendir sobre **ReactJS, componenti
 # Ajustes
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-- [ ] Layout Mobile
+- [x] Layout Mobile
 - [ ] Layout Desktop
-- [ ] Rotas de navegação
+- [x] Rotas de navegação
 
 # Tecnologias utilizadas
 - HTML / CSS / JS / TypeScript
