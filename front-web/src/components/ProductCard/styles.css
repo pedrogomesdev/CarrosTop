@@ -5,27 +5,31 @@
   border-radius: 10px;
 }
 
-.card-super {
-  text-align: center;
+.card-super{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-super img {
-  width: 100%;
+  width: 220px;
 }
+
 .card-info h5 {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .card-info p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .card-info button {
   margin-top: 10px;
-  width: 100%;
+  width: 233px;
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
@@ -36,4 +40,40 @@
 .card-info button:hover {
   color: rgb(255, 128, 0);
   font-weight: bold;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 576px){
+  .card-info button {
+    width: 100%;
+  }
+
+  .card-info p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px){
+
+
+  .card-info p{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 922px){
+  .card-info p{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 922px){
+  .card-info p{
+    font-size: 16px;
+  }
 }

@@ -12,7 +12,7 @@
 .menu-principal {
   width: 250px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .menu-principal li {
@@ -33,3 +33,24 @@
 .active {
   font-weight: bold;
 }
+
+.blue-hum {
+  color: #00285f;
+}
+
+@media (min-width: 768px) {
+  .menu-principal {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-principal {
+    min-height: 70px;
+    padding-top: 20px;
+    padding-left: 200px;
+    background-color: #f78b00;
+  }
+}
+
+

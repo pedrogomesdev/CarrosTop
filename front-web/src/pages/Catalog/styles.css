@@ -1,5 +1,5 @@
 .catalog-container {
-  padding: 15px;
+  padding: 25px;
   margin-top: 80px;
 }
 
@@ -23,16 +23,64 @@
 }
 
 .buscar-container button {
+  width: 77px;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
-  width: 77px;
   height: 40px;
   border-radius: 0px 5px 5px 0px;
 }
 
-.buscar-container button:hover{
+.buscar-container button:hover {
   color: rgb(255, 128, 0);
   font-weight: bold;
 }
+
+@media (min-width: 576px) {
+  .catalog-container {
+    padding: 25px 0px;
+    margin-top: 80px;
+  }
+
+  .buscar-container button {
+    width: 177px;
+  }
+
+  .buscar-container {
+    width: 100%;
+    height: 126px;
+    padding: 0px 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .buscar-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .buscar-container {
+    padding: 0px 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .catalog-container {
+    padding: 30px 50px;
+  }
+
+  .buscar-container {
+    padding: 0px 90px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .catalog-container {
+    padding: 30px 100px;
+  }
+}
+

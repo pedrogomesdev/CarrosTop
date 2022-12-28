@@ -1,13 +1,17 @@
 .home-container {
   margin-top: 60px;
-  padding: 40px 13px;
+  padding: 40px 10px;
 }
 
 .home-container img {
-  width: 100%;
+  width: 244px;
 }
 
 .card-superior {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   background-color: #00285f;
   color: #fff;
   padding: 60px 20px 50px 20px;
@@ -29,12 +33,13 @@
 .card-superior-conteudo p {
   font-size: 14px;
   text-align: center;
+  width: 251px;
 }
 
 .card-inferior {
   text-align: center;
   padding: 25px;
-  
+
   margin-top: 21px;
   background: #ededed;
   border-radius: 10px;
@@ -48,7 +53,7 @@
   height: 40px;
 }
 
-.card-inferior button:hover{
+.card-inferior button:hover {
   color: rgb(255, 128, 0);
   font-weight: bold;
 }
@@ -57,4 +62,82 @@
   margin-top: 12px;
   color: #585858;
   font-size: 18px;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    padding: 40px 25px;
+  }
+
+  .card-superior-conteudo p {
+    font-size: 18px;
+    width: 400px;
+  }
+
+  .card-superior {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card-superior-conteudo h4 {
+    font-size: 36px;
+  }
+
+  .home-container img {
+    width: 333px;
+  }
+
+  .card-inferior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 123px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-superior-conteudo p {
+    font-size: 18px;
+    width: 400px;
+  }
+
+  .home-container img {
+    width: 333px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container img {
+    width: 455px;
+  }
+}
+
+@media (min-width:  1200px) {
+
+  .home-container {
+    padding: 40px 100px;
+  }
+
+  .home-container img {
+    width: 400px;
+  }
+
+  .card-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 63px;
+    height: 450px;
+  }
+
+  .card-superior-conteudo p {
+    font-size: 18px;
+    text-align: start;
+    width: 420px;
+  }
+  
+  
 }

@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-md navbar-dark nav-principal fixed-top">
-      <div className="container-fluid">
+      <div className="container-fluid container-main">
         <div>
           <Link to="/" className="nav-logo remove-sublinhado ">
             <h4>Carros Top</h4>
@@ -21,11 +21,11 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon text-primary"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="carrostop-navbar">
-          <ul className="navbar-nav offset-md-9 menu-principal">
+          <ul className="navbar-nav  offset-md-9 menu-principal">
             <NavLink to="/" activeClassName="active" className="remove-sublinhado" exact>
               <li>Home</li>
             </NavLink>
