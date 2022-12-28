@@ -46,10 +46,7 @@
 
 @media (min-width: 1200px) {
   .nav-principal {
-    min-height: 70px;
-    padding-top: 20px;
-    padding-left: 200px;
-    background-color: #f78b00;
+    padding-left: 100px;
   }
 }
 
