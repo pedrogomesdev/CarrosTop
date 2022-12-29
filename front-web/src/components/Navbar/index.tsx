@@ -25,7 +25,7 @@ function Navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="carrostop-navbar">
-          <ul className="navbar-nav  offset-md-9 menu-principal">
+          <ul className="navbar-nav offset-md-9 menu-principal">
             <NavLink to="/" activeClassName="active" className="remove-sublinhado" exact>
               <li>Home</li>
             </NavLink>

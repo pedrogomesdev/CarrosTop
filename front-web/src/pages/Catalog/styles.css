@@ -69,7 +69,6 @@
   .catalog-container {
     padding: 25px 30px;
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -82,10 +81,8 @@
   }
 }
 
-
 @media (min-width: 1400px) {
   .catalog-container {
     padding: 30px 100px;
   }
 }
-
